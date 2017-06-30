@@ -72,7 +72,7 @@ gulp.task("lint-prod", function() {
 
 gulp.task("css", function() {
   gulp.src("./css/**/*.css")
-  .pipe(concatcss("critical-stack.css"))
+  .pipe(concatcss("react-wa.css"))
   .pipe(cssmin())
   .pipe(gulp.dest("./build"));
 });
@@ -145,13 +145,13 @@ function buildScript(file, watch) {
     var stream = bundler.bundle();
     return stream
     .on("error", handleErrors)
-      .pipe(source("critical-stack.js"))
+      .pipe(source("react-wa.js"))
       .pipe(gulp.dest("./build/"))
       .pipe(buffer())
       // .pipe(uglify({
         // mangle: true
       // }))
-      .pipe(rename("critical-stack.js"))
+      .pipe(rename("react-wa.js"))
       .pipe(gulp.dest("./build"))
   }
 
@@ -169,11 +169,11 @@ function buildScript(file, watch) {
 gulp.task("src-dev", [
   "lint-dev"
 ], function() {
-  return buildScript("critical-stack.jsx", false);
+  return buildScript("react-wa.jsx", false);
 });
 
 gulp.task("src-dev-fast", function() {
-  return buildScript("critical-stack.jsx", false);
+  return buildScript("react-wa.jsx", false);
 });
 
 gulp.task("dev-fast", [
@@ -216,7 +216,7 @@ gulp.task("dev", [
 
 // production
 gulp.task("src-prod", ["lint-prod"], function() {
-  return buildScript("critical-stack.jsx", false);
+  return buildScript("react-wa.jsx", false);
 });
 
 gulp.task("prod", [

@@ -1,17 +1,23 @@
-import React from 'react';
+"use strict";
+
+import React from "react";
 
 class Title extends React.Component {
 
   constructor(props) {
     super(props);
 
+    this.state = {
+      title: props.title
+    }
+
   }
 
   render() {
 
     return(
-      <h1>Testing</h1>
-    )
+      <h1>{this.state.title}</h1>
+    );
 
   }
 }
