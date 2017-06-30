@@ -1,0 +1,23 @@
+{
+  "name": "react-wa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yenpraja610/react-wa.git"
+  },
+  "author": "Yenifer Prajapati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yenpraja610/react-wa/issues"
+  },
+  "homepage": "https://github.com/yenpraja610/react-wa#readme",
+  "dependencies": {
+    "react": "^15.6.1",
+    "webpack": "^3.0.0"
+  }
+}

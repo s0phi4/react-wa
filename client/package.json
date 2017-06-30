@@ -1,0 +1,54 @@
+{
+  "name": "react-wa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yenpraja610/react-wa.git"
+  },
+  "author": "Yenifer Prajapati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yenpraja610/react-wa/issues"
+  },
+  "homepage": "https://github.com/yenpraja610/react-wa#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "colors": "^1.1.2",
+    "create-react-class": "^15.5.3",
+    "cron-parser": "^2.4.0",
+    "eslint-plugin-react": "^6.6.0",
+    "fbemitter": "^2.1.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-eslint": "^3.0.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "imagemin-pngquant": "^5.0.0",
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.15.1",
+    "optipng": "^1.0.0",
+    "prop-types": "https://registry.npmjs.org/prop-types/-/prop-types-15.5.10.tgz",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router": "https://registry.npmjs.org/react-router/-/react-router-2.8.1.tgz",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}
